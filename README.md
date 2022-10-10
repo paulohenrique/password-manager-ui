@@ -15,6 +15,16 @@ Flexbox
 - Card Dialog
 - Card list
 
+## Services
+Card Service
+
+## Routes
+
+  - { path: '', redirectTo: 'cards', pathMatch: 'full' },
+  - { path: 'cards', component: CardListComponent },
+  - { path: 'cards/:id', component: CardDetailsComponent },
+  - { path: 'add', component: AddCardComponent }
+
 ## Screens
 - Add new Card
 ![image](https://user-images.githubusercontent.com/1148082/194893837-b4032931-5cc3-4ce2-abd0-881a199c9eb7.png)
