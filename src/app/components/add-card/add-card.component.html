@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="submit-form" *ngIf="!submitted">
+
+        <mat-form-field>
+            <input matInput [(ngModel)]="card.name" name="name" placeholder="Name" required>
+        </mat-form-field>    
+
+        <mat-form-field>
+            <input matInput [(ngModel)]="card.url" name="url" placeholder="url" required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput [(ngModel)]="card.username" name="username" placeholder="username" required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput [(ngModel)]="card.password" name="password" placeholder="password" required>
+        </mat-form-field>
+            
+        <button  mat-stroked-button color="primary" (click)="saveTutorial()" >Submit</button>
+
+    </div>
+
+    <div *ngIf="submitted">
+        <h4>You submitted successfully!</h4>
+        <button mat-stroked-button color="primary" (click)="newTutorial()">Add</button>
+    </div>
+</div>

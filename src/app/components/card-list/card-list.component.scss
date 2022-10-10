@@ -1,0 +1,25 @@
+.list-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.search-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-form-field {
+    width: 400px;
+}
+
+mat-form-field {
+    width: 50%;
+}
+
+.card {
+    width: 200px;
+}
+

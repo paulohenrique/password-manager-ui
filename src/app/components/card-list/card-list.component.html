@@ -1,0 +1,28 @@
+<div>
+    <div class="search-card">
+        <mat-form-field class="card-form-field" appearance="fill">
+            <mat-label>Search Card</mat-label>
+            <input matInput type="text" [(ngModel)]="name" name="name">
+            <button matSuffix mat-icon-button aria-label="Clear" (click)=searchCardByName()>
+              <mat-icon>search</mat-icon>
+            </button>
+          </mat-form-field>
+    </div>
+
+    <div class="col-md-6">
+      <div class="list-card">
+          <div *ngFor="let card of cards; let i = index" [class.active]="i == currentIndex" (click)="setActiveCard(card, i)">
+            <mat-card class="card">
+                <mat-card-title>{{card.name}}</mat-card-title>
+                <mat-card-subtitle>{{card.url}}</mat-card-subtitle>
+                <mat-card-content>
+                    <mat-icon>password</mat-icon>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button (click)="setActiveCard(card, i)" mat-button>EDIT</button>
+                </mat-card-actions>
+            </mat-card>
+          </div>
+      </div>
+    </div>
+  </div>
