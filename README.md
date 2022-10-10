@@ -2,26 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
-## Development server
+## Lib Components
+Angular Materials
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Ajustar e alinhar items
+Flexbox
 
-## Code scaffolding
+## Components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Add Card
+- Card Details
+- Card Dialog
+- Card list
 
-## Build
+## Screens
+- Add new Card
+![image](https://user-images.githubusercontent.com/1148082/194893837-b4032931-5cc3-4ce2-abd0-881a199c9eb7.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- List Card and Search
+![image](https://user-images.githubusercontent.com/1148082/194894100-edd8e3e1-033f-4df9-b8dc-18655649eb0f.png)
 
-## Running unit tests
+- Edit e delete card
+![image](https://user-images.githubusercontent.com/1148082/194894355-e392d861-06b6-49fb-9beb-049c0097c0e1.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
